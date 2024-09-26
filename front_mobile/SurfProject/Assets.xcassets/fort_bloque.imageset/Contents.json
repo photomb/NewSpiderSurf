@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "fort_bloque.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

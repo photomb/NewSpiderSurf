@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "la_palue.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

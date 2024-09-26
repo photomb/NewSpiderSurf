@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ile_aux_vaches.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

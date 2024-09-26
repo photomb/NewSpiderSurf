@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "baie_des_trepassees.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
