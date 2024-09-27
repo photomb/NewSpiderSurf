@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C3F8A72C8717D500973FBF /* SupportButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F8A62C8717D400973FBF /* SupportButton2.swift */; };
+		52C3F8A72C8717D500973FBF /* SupportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3F8A62C8717D400973FBF /* SupportButton.swift */; };
+		BE12D0DA2C870B910028569F /* Sources.json in Resources */ = {isa = PBXBuildFile; fileRef = BE12D0D92C870B910028569F /* Sources.json */; };
 		BE12D0DC2C870C790028569F /* SpotInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12D0DB2C870C790028569F /* SpotInterpreter.swift */; };
-		BE4C2C952C9AC520009CC08A /* SpotDetailsApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C2C942C9AC520009CC08A /* SpotDetailsApiView.swift */; };
-		BE81CF262C9C0D6A004FF0D1 /* SupportButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81CF252C9C0D6A004FF0D1 /* SupportButton1.swift */; };
-		BE81CF282C9C0DFA004FF0D1 /* SupportButton3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81CF272C9C0DFA004FF0D1 /* SupportButton3.swift */; };
-		BE81CF2A2C9C0EAF004FF0D1 /* AnimationWinPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81CF292C9C0EAF004FF0D1 /* AnimationWinPView.swift */; };
-		BE81CF2C2C9C10FE004FF0D1 /* imageWinP.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81CF2B2C9C10FE004FF0D1 /* imageWinP.swift */; };
-		BEA3584C2C99C23E004B2B6C /* ListingApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3584B2C99C23E004B2B6C /* ListingApiView.swift */; };
-		BEA3584E2C99C367004B2B6C /* ModelApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3584D2C99C367004B2B6C /* ModelApi.swift */; };
+		BE12D0DE2C870D350028569F /* ModelJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12D0DD2C870D350028569F /* ModelJson.swift */; };
+		BE12D0E02C873E9E0028569F /* ListingJsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12D0DF2C873E9E0028569F /* ListingJsonView.swift */; };
+		BEC691B52C81C49200E0B055 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC691B42C81C49200E0B055 /* Model.swift */; };
+		BEC691B72C81D00E00E0B055 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC691B62C81D00E00E0B055 /* ListingView.swift */; };
+		BEC691B92C81F6FC00E0B055 /* SpotDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC691B82C81F6FC00E0B055 /* SpotDetailsView.swift */; };
 		BEE3AAC62C89AE7300D811D7 /* Chalkduster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEE3AAC52C89AE7300D811D7 /* Chalkduster.ttf */; };
 		E6327E552C8F052800D79FE7 /* AnimationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6327E402C8F052800D79FE7 /* AnimationTitle.swift */; };
 		E6327E582C8F052800D79FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6327E432C8F052800D79FE7 /* ContentView.swift */; };
@@ -25,6 +24,10 @@
 		E6327E662C8F052800D79FE7 /* SurfSpotIView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6327E512C8F052800D79FE7 /* SurfSpotIView_Model.swift */; };
 		E6327E672C8F052800D79FE7 /* SurfSpotLocation_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6327E522C8F052800D79FE7 /* SurfSpotLocation_Model.swift */; };
 		E6327E692C8F055F00D79FE7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6327E682C8F055F00D79FE7 /* Item.swift */; };
+		E658F3732C9B8A7900A8A909 /* SupportButtonListSpots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F3722C9B8A6B00A8A909 /* SupportButtonListSpots.swift */; };
+		E658F3752C9B8C9300A8A909 /* BackSupabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F3742C9B8C7500A8A909 /* BackSupabaseModel.swift */; };
+		E658F3772C9BE7B500A8A909 /* ViewSupabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F3762C9BE79700A8A909 /* ViewSupabaseModel.swift */; };
+		E658F3792C9BED9A00A8A909 /* DataViewSupabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F3782C9BED8F00A8A909 /* DataViewSupabaseModel.swift */; };
 		E6ED1C632C7C775300678102 /* SurfProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ED1C622C7C775300678102 /* SurfProjectApp.swift */; };
 		E6ED1C692C7C775700678102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ED1C682C7C775700678102 /* Assets.xcassets */; };
 		E6ED1C6C2C7C775700678102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ED1C6B2C7C775700678102 /* Preview Assets.xcassets */; };
@@ -52,15 +55,14 @@
 
 /* Begin PBXFileReference section */
 		52C3F8A12C870A9200973FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		52C3F8A62C8717D400973FBF /* SupportButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButton2.swift; sourceTree = "<group>"; };
+		52C3F8A62C8717D400973FBF /* SupportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButton.swift; sourceTree = "<group>"; };
+		BE12D0D92C870B910028569F /* Sources.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sources.json; sourceTree = "<group>"; };
 		BE12D0DB2C870C790028569F /* SpotInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotInterpreter.swift; sourceTree = "<group>"; };
-		BE4C2C942C9AC520009CC08A /* SpotDetailsApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsApiView.swift; sourceTree = "<group>"; };
-		BE81CF252C9C0D6A004FF0D1 /* SupportButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButton1.swift; sourceTree = "<group>"; };
-		BE81CF272C9C0DFA004FF0D1 /* SupportButton3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButton3.swift; sourceTree = "<group>"; };
-		BE81CF292C9C0EAF004FF0D1 /* AnimationWinPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWinPView.swift; sourceTree = "<group>"; };
-		BE81CF2B2C9C10FE004FF0D1 /* imageWinP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageWinP.swift; sourceTree = "<group>"; };
-		BEA3584B2C99C23E004B2B6C /* ListingApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingApiView.swift; sourceTree = "<group>"; };
-		BEA3584D2C99C367004B2B6C /* ModelApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApi.swift; sourceTree = "<group>"; };
+		BE12D0DD2C870D350028569F /* ModelJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelJson.swift; sourceTree = "<group>"; };
+		BE12D0DF2C873E9E0028569F /* ListingJsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingJsonView.swift; sourceTree = "<group>"; };
+		BEC691B42C81C49200E0B055 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BEC691B62C81D00E00E0B055 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		BEC691B82C81F6FC00E0B055 /* SpotDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsView.swift; sourceTree = "<group>"; };
 		BEE3AAC52C89AE7300D811D7 /* Chalkduster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkduster.ttf; sourceTree = "<group>"; };
 		E6327E402C8F052800D79FE7 /* AnimationTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTitle.swift; sourceTree = "<group>"; };
 		E6327E432C8F052800D79FE7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,10 @@
 		E6327E512C8F052800D79FE7 /* SurfSpotIView_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfSpotIView_Model.swift; sourceTree = "<group>"; };
 		E6327E522C8F052800D79FE7 /* SurfSpotLocation_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfSpotLocation_Model.swift; sourceTree = "<group>"; };
 		E6327E682C8F055F00D79FE7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E658F3722C9B8A6B00A8A909 /* SupportButtonListSpots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButtonListSpots.swift; sourceTree = "<group>"; };
+		E658F3742C9B8C7500A8A909 /* BackSupabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSupabaseModel.swift; sourceTree = "<group>"; };
+		E658F3762C9BE79700A8A909 /* ViewSupabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSupabaseModel.swift; sourceTree = "<group>"; };
+		E658F3782C9BED8F00A8A909 /* DataViewSupabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewSupabaseModel.swift; sourceTree = "<group>"; };
 		E6ED1C5F2C7C775300678102 /* SurfProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6ED1C622C7C775300678102 /* SurfProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfProjectApp.swift; sourceTree = "<group>"; };
 		E6ED1C682C7C775700678102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,11 +116,15 @@
 			isa = PBXGroup;
 			children = (
 				E6327E402C8F052800D79FE7 /* AnimationTitle.swift */,
+				E6327E432C8F052800D79FE7 /* ContentView.swift */,
 				E6327E472C8F052800D79FE7 /* MapView.swift */,
 				E6327E4A2C8F052800D79FE7 /* PinModelView.swift */,
 				E6327E4B2C8F052800D79FE7 /* Property List.plist */,
 				E6327E512C8F052800D79FE7 /* SurfSpotIView_Model.swift */,
+				E658F3782C9BED8F00A8A909 /* DataViewSupabaseModel.swift */,
+				E658F3762C9BE79700A8A909 /* ViewSupabaseModel.swift */,
 				E6327E522C8F052800D79FE7 /* SurfSpotLocation_Model.swift */,
+				E658F3742C9B8C7500A8A909 /* BackSupabaseModel.swift */,
 			);
 			name = SurfProject;
 			sourceTree = "<group>";
@@ -142,23 +152,22 @@
 		E6ED1C612C7C775300678102 /* SurfProject */ = {
 			isa = PBXGroup;
 			children = (
-				E6327E432C8F052800D79FE7 /* ContentView.swift */,
 				52C3F8A12C870A9200973FBF /* Info.plist */,
 				E6ED1C622C7C775300678102 /* SurfProjectApp.swift */,
-				BE81CF252C9C0D6A004FF0D1 /* SupportButton1.swift */,
-				52C3F8A62C8717D400973FBF /* SupportButton2.swift */,
-				BE81CF272C9C0DFA004FF0D1 /* SupportButton3.swift */,
-				BE81CF292C9C0EAF004FF0D1 /* AnimationWinPView.swift */,
-				BE81CF2B2C9C10FE004FF0D1 /* imageWinP.swift */,
+				52C3F8A62C8717D400973FBF /* SupportButton.swift */,
+				E658F3722C9B8A6B00A8A909 /* SupportButtonListSpots.swift */,
 				BEE3AAC52C89AE7300D811D7 /* Chalkduster.ttf */,
+				BEC691B62C81D00E00E0B055 /* ListingView.swift */,
+				BE12D0DF2C873E9E0028569F /* ListingJsonView.swift */,
+				BEC691B82C81F6FC00E0B055 /* SpotDetailsView.swift */,
+				BEC691B42C81C49200E0B055 /* Model.swift */,
+				BE12D0DD2C870D350028569F /* ModelJson.swift */,
 				BE12D0DB2C870C790028569F /* SpotInterpreter.swift */,
 				E6327E682C8F055F00D79FE7 /* Item.swift */,
 				E6327E532C8F052800D79FE7 /* SurfProject */,
 				E6ED1C682C7C775700678102 /* Assets.xcassets */,
+				BE12D0D92C870B910028569F /* Sources.json */,
 				E6ED1C6A2C7C775700678102 /* Preview Content */,
-				BEA3584B2C99C23E004B2B6C /* ListingApiView.swift */,
-				BEA3584D2C99C367004B2B6C /* ModelApi.swift */,
-				BE4C2C942C9AC520009CC08A /* SpotDetailsApiView.swift */,
 			);
 			path = SurfProject;
 			sourceTree = "<group>";
@@ -252,7 +261,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					E6ED1C5E2C7C775300678102 = {
 						CreatedOnToolsVersion = 15.4;
@@ -294,6 +303,7 @@
 			files = (
 				E6327E602C8F052800D79FE7 /* Property List.plist in Resources */,
 				BEE3AAC62C89AE7300D811D7 /* Chalkduster.ttf in Resources */,
+				BE12D0DA2C870B910028569F /* Sources.json in Resources */,
 				E6ED1C6C2C7C775700678102 /* Preview Assets.xcassets in Resources */,
 				E6ED1C692C7C775700678102 /* Assets.xcassets in Resources */,
 			);
@@ -320,23 +330,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA3584E2C99C367004B2B6C /* ModelApi.swift in Sources */,
+				BEC691B72C81D00E00E0B055 /* ListingView.swift in Sources */,
 				E6327E582C8F052800D79FE7 /* ContentView.swift in Sources */,
 				E6327E692C8F055F00D79FE7 /* Item.swift in Sources */,
+				BE12D0E02C873E9E0028569F /* ListingJsonView.swift in Sources */,
 				E6327E552C8F052800D79FE7 /* AnimationTitle.swift in Sources */,
-				BE81CF262C9C0D6A004FF0D1 /* SupportButton1.swift in Sources */,
-				BE81CF2C2C9C10FE004FF0D1 /* imageWinP.swift in Sources */,
+				E658F3732C9B8A7900A8A909 /* SupportButtonListSpots.swift in Sources */,
 				E6327E5C2C8F052800D79FE7 /* MapView.swift in Sources */,
 				BE12D0DC2C870C790028569F /* SpotInterpreter.swift in Sources */,
 				E6327E672C8F052800D79FE7 /* SurfSpotLocation_Model.swift in Sources */,
-				BE81CF282C9C0DFA004FF0D1 /* SupportButton3.swift in Sources */,
-				BE4C2C952C9AC520009CC08A /* SpotDetailsApiView.swift in Sources */,
+				BEC691B92C81F6FC00E0B055 /* SpotDetailsView.swift in Sources */,
+				E658F3772C9BE7B500A8A909 /* ViewSupabaseModel.swift in Sources */,
+				E658F3792C9BED9A00A8A909 /* DataViewSupabaseModel.swift in Sources */,
+				BE12D0DE2C870D350028569F /* ModelJson.swift in Sources */,
 				E6327E5F2C8F052800D79FE7 /* PinModelView.swift in Sources */,
-				BE81CF2A2C9C0EAF004FF0D1 /* AnimationWinPView.swift in Sources */,
+				E658F3752C9B8C9300A8A909 /* BackSupabaseModel.swift in Sources */,
 				E6ED1C632C7C775300678102 /* SurfProjectApp.swift in Sources */,
 				E6327E662C8F052800D79FE7 /* SurfSpotIView_Model.swift in Sources */,
-				BEA3584C2C99C23E004B2B6C /* ListingApiView.swift in Sources */,
-				52C3F8A72C8717D500973FBF /* SupportButton2.swift in Sources */,
+				BEC691B52C81C49200E0B055 /* Model.swift in Sources */,
+				52C3F8A72C8717D500973FBF /* SupportButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +565,6 @@
 		E6ED1C892C7C775800678102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -572,7 +583,6 @@
 		E6ED1C8A2C7C775800678102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -591,7 +601,6 @@
 		E6ED1C8C2C7C775800678102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -608,7 +617,6 @@
 		E6ED1C8D2C7C775800678102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

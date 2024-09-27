@@ -13,30 +13,25 @@ struct ContentView : View {
         
         NavigationStack {
             
-            VStack {
+            ZStack(alignment: .bottom) {
                 ZStack {
                     Image("spidermanSurfing")
-                        .resizable(resizingMode: .tile)
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width:400)
-                    
+                        //.resizable(resizingMode: .tile)
+                        //.aspectRatio(contentMode: .fit)
+                        .frame(width: 1024)
                     VStack {
                         AnimationTitle()
                     }
-                    .padding() // Optionnel : ajouter de l'espace autour du texte
+                    .padding()
                 }
-                
-                //Creation buttons
-                
-                HStack {
-
-                    SupportButton1(text: "Autour de moi", icone: "compass.drawing")
-                    SupportButton2(text: "Spots de Surf",icone: "list.star")
-                    SupportButton3(text: "Menu",icone: "list.star")
-                    
+                HStack { //Buttons Created
+                    SupportButtonMap(text: "On the Map again", icone: "map.fill")
+                    SupportButtonListSpots(text: "King of Spots", icone: "figure.surfing")
                 }
+                .padding()
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

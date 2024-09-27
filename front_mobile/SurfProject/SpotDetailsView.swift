@@ -1,21 +1,21 @@
 //
-//  SpotDetailsApiView.swift
+//  SpotDetailsView.swift
 //  SurfProject
 //
-//  Created by Maud Gauthier on 18/09/2024.
+//  Created by Maud Gauthier on 30/08/2024.
 //
 
 import SwiftUI
 
-struct SpotDetailsApiView: View {
+struct SpotDetailsView: View {
     
-    let spot: SurfSpotapi
+    let spot: Spot
     
     var body: some View {
         
         GeometryReader { geometry in
             VStack {
-                Image(spot.image)
+                Image(spot.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: geometry.size.width)
@@ -24,13 +24,21 @@ struct SpotDetailsApiView: View {
                     Image(systemName: "mappin.and.ellipse")
                         .padding(.trailing, 2.0)
                     Text(spot.name)
-                        .font(.custom("Chalkduster", size: 30))
                 }
                 .font(.title)
-                .padding()
                 
-                Text(spot.description)
-                    .padding()
+                HStack {
+                    Button(action: {
+                    }) {
+                        NavigationLink(destination: ListingView()) {
+                            Image(systemName: "arrow.left.circle.fill")
+                                .imageScale(.large)
+                                .foregroundColor(.cyan)
+                        }
+                    }
+                    Text(spot.description)
+                        .padding()
+                }
                 
                 VStack(alignment: .leading){
                     
@@ -41,31 +49,37 @@ struct SpotDetailsApiView: View {
                     HStack{
                         Image(systemName: "cloud.sun")
                         Text("Météo : ")
-                        Text(spot.weather)
-                        Text(" | ")
-                        Text("\(spot.temp)")
-                        Text(" °C")
+                        //Text("Ensoleillée  |  28°C")
+                        ForEach(spot.weather, id: \.self) { weather in
+                            Text(weather)
+                        }
                     }
                     .padding()
                     
                     HStack{
                         Image(systemName: "moon.haze")
                         Text("Marée : ")
-                        Text(spot.tide)
+                        ForEach(spot.tide, id: \.self) {
+                            tide in
+                            Text(tide)
+                        }
                     }
                     .padding()
                     
                     HStack{
                         Image(systemName: "water.waves")
                         Text("Houle : ")
-                        Text(spot.swell_sea)
+                        Text(spot.swellSea)
                     }
                     .padding()
                     
                     HStack{
                         Image(systemName: "wind")
                         Text("Vent : ")
-                        Text(spot.wind)
+                        ForEach(spot.wind, id: \.self) {
+                            wind in
+                            Text(wind)
+                        }
                     }
                     .padding()
                 }
@@ -79,19 +93,5 @@ struct SpotDetailsApiView: View {
 }
 
 #Preview {
-    SpotDetailsApiView(spot: SurfSpotapi(
-        id: 3,
-        name: "Barre d'Etel",
-        image: "barre_detel",
-        city: "Etel",
-        latitude: 47.651077,
-        longitude: -3.225147,
-        risk: "medium",
-        weather: "Nuageux",
-        temp: 17,
-        tide: "BM: 08h10 - HM: 14H07",
-        coeff: 87,
-        swell_sea: "1.5-2m",
-        wind: "Ouest 12 km/h",
-        description: "Un spot de surf connu pour ses courants puissants et ses vagues variées, situé à l'embouchure de la Ria d'Etel."))
+    SpotDetailsView(spot: Spot(name: "Audierne", imageName: "audierne", weather: ["Ensoleillé", "17°C"], tide: ["Basse 5h03", "Haute 12H01"], swellSea: "1m-2m", wind: ["Nord-Ouest 15 km/h", "Ouest 10 km/h"], description: "Audierne est un spot idéal pour les surfeurs de tous niveaux, avec des vagues régulières et une belle plage."))
 }
